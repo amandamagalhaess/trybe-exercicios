@@ -1,0 +1,1 @@
+Os exercícios deste dia foram para colocar em prática o aprendizado sobre GIT.
