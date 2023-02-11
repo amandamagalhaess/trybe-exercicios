@@ -1,0 +1,9 @@
+Como funciona o versionamento?
+
+1 - criar uma pasta com o mkdir
+2 - iniciar o versionamento com o git init
+3 - criar uma nova branch a partir da main com o git checkout -b nome-da-branch
+4 - criar um arquivo com o touch nome-do-arquivo
+5 - adicionar as alterações em staging com o git add .
+6 - comitar as alterações descrevendo o que foi feito com o git commit -m "Descrever o que foi feito"
+7 - realizar o merge das branches, retornando a branch main com o git checkout main e depois mergindo com o git merge nome-da-branch
