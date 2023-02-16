@@ -34,3 +34,27 @@ li em{
 .pink-b{
     background-color: pink;
 }
+
+.aliados a:hover{
+    font-weight: bold;
+}
+
+.aliados a[href*="stackoverflow"]:hover{
+    color: orange;
+}
+
+.aliados a[href*="w3schools"]:hover{
+    color: green;
+}
+
+.aliados a[href*="mozilla"]:hover{
+    color: black;
+}
+
+.aliados a[href*="devdocs"]:hover{
+    color: yellow;
+}
+
+.aliados a[href*="betrybe"]:hover{
+    color: green;
+}
