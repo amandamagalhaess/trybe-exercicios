@@ -26,3 +26,11 @@ li{
 li em{
     font-weight: bold;
 }
+
+.blue-font{
+    color: blue;
+}
+
+.pink-b{
+    background-color: pink;
+}
