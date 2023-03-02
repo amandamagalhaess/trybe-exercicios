@@ -53,3 +53,21 @@ else if (num1 < 0) {
 else {
     console.log('zero');
 }
+
+// 5
+
+let angle1 = 45;
+let angle2 = 45;
+let angle3 = 90;
+
+if (angle1 > 0 && angle2 > 0 && angle3 > 0) {
+    if (angle1 + angle2 + angle3 === 180) {
+        console.log('true');
+    }
+    else {
+        console.log('false');
+    }
+}
+else {
+    console.log('Ângulo inválido!');
+}
