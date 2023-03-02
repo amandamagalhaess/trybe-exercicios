@@ -71,3 +71,37 @@ if (angle1 > 0 && angle2 > 0 && angle3 > 0) {
 else {
     console.log('Ângulo inválido!');
 }
+
+// 6
+
+let chessPiece = 'Bispo';
+
+switch (chessPiece.toLowerCase()) {
+    case 'peão':
+        console.log('Peão: sempre uma casa para frente, exceto no primeiro movimento, quando pode mover-se duas casas');
+        break;
+
+    case 'torre':
+        console.log('Torre: linha reta, tanto na vertical quanto na horizontal, quantas casas quiser');
+        break;
+
+    case 'cavalo':
+        console.log('Cavalo: movimento em "L", pode saltar sobre outras peças');
+        break;
+
+    case 'bispo':
+        console.log('Bispo: diagonal, quantas casas quiser');
+        break;
+
+    case 'rainha':
+        console.log('Rainha: qualquer direção, quantas casas quiser');
+        break;
+
+    case 'rei':
+        console.log('Rei: qualquer direção, porém apenas uma casa por vez');
+        break;
+
+    default:
+        console.log('Peça inválida');
+        break;
+}
