@@ -41,3 +41,15 @@ else if (num3 > num1 && num3 > num2) {
 else {
     console.log('Os números tem o mesmo valor');
 }
+
+// 4
+
+if (num1 > 0) {
+    console.log('positive');
+}
+else if (num1 < 0) {
+    console.log('negative');
+}
+else {
+    console.log('zero');
+}
