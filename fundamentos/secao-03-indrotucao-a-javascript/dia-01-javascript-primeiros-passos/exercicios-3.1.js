@@ -133,3 +133,17 @@ if (nota >= 0 && nota <= 100) {
 else {
     console.log('Insira uma nota entre 0 e 100');
 }
+
+// 8
+
+let n1 = 3;
+let n2 = 6;
+let n3 = 8;
+
+let isEven = false;
+
+if (n1 % 2 === 0 || n2 % 2 === 0 || n3 % 2 === 0) {
+    isEven = true;
+}
+
+console.log(isEven);
