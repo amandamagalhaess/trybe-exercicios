@@ -147,3 +147,28 @@ if (n1 % 2 === 0 || n2 % 2 === 0 || n3 % 2 === 0) {
 }
 
 console.log(isEven);
+
+// 9
+
+let isOdd = false;
+
+if (n1 % 2 !== 0 || n2 % 2 !== 0 || n3 % 2 !== 0) {
+    isOdd = true;
+}
+
+console.log(isOdd);
+
+// 10
+
+let cost = 20;
+let value = 30;
+const tax = (20/100) * cost;
+
+if (cost >= 0 && value >= 0) {
+    let totalCost = cost + tax;
+    let profit = (value - totalCost) * 1000;
+    console.log('O lucro é de ' + profit + ' reais.');
+}
+else {
+    console.log('Erro: valores não podem ser menores do que 0');
+}
