@@ -66,3 +66,42 @@ console.log(newNumbers);
 for (let index = 0; index < newNumbers.length; index += 1) {
     console.log(newNumbers[index] + ' / 2 = ' + (newNumbers[index] / 2));
 }
+
+
+// Lógica de programação e algoritmos
+
+let factorial = 1;
+
+for (let index = 10; index > 0; index -= 1) {
+    factorial = factorial * index;
+} 
+console.log('10! = ' + factorial);
+
+
+let word = 'tryber';
+let invertedWord = '';
+
+for (let index = word.length - 1; index >= 0; index -= 1) {
+    invertedWord += word[index];
+}
+console.log(invertedWord);
+
+
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+let biggestWord = array[0];
+let smallestWord = array[0];
+
+for (let index = 1; index < array.length; index += 1) {
+    if (array[index].length > biggestWord.length) {
+        biggestWord = array[index];
+    }
+}
+
+for (let index = 1; index < array.length; index += 1) {
+    if (array[index].length < smallestWord.length) {
+        smallestWord = array[index];
+    }
+}
+
+console.log('Maior palavra: ' + biggestWord);
+console.log('Menor palavra: ' + smallestWord);
