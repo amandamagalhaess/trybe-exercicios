@@ -37,3 +37,28 @@ let car = {
 for (let key in car) {
     console.log(key + ': ' + car[key]);
 }
+
+// adicionando novas chaves
+
+let student = {};
+
+const addProperty = (object, key, value) => {
+    object[key] = value;
+}
+
+let newKey = 'nome';
+let name = 'Amanda';
+
+addProperty(student, newKey, name);
+
+newKey = 'e-mail';
+let email = 'mandaamagalhaes@gmail.com';
+
+addProperty(student, newKey, email);
+
+newKey = 'telefone';
+let telefone = '(33) 991509960';
+
+addProperty(student, newKey, telefone);
+
+console.log(student);
