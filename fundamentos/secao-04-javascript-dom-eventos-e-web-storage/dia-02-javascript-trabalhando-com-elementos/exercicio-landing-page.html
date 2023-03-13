@@ -59,7 +59,7 @@
 
 <body>
   <script>
-// Adicione a tag h1 com o texto TrybeTrip - Agência de Viagens como filho da tag body;
+    // Adicione a tag h1 com o texto TrybeTrip - Agência de Viagens como filho da tag body;
 
     let tagH1 = document.createElement('h1');
     tagH1.innerHTML = 'TrybeTrip - Agência de Viagens';
@@ -67,22 +67,26 @@
     let body = document.getElementsByTagName('body')[0];
     body.appendChild(tagH1);
 
-// Adicione a tag main com a classe main-content como filho da tag body;
+    // Adicione a tag main com a classe main-content como filho da tag body;
 
     let tagMain = document.createElement('main');
     tagMain.classList.add('main-content');
 
     body.appendChild(tagMain);
 
-// Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
+    // Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
 
     let tagSection = document.createElement('section');
     tagSection.classList.add('center-content');
 
     tagMain.appendChild(tagSection);
 
-// Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+    // Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
 
+    let tagP = document.createElement('p');
+    tagP.innerHTML = 'texto texto texto texto texto texto texto';
+
+    tagSection.appendChild(tagP);
 
 // Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
 
