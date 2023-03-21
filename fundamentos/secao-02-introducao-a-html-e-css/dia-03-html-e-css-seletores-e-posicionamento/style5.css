@@ -1,0 +1,60 @@
+ol li{
+    background-color: yellow;
+}
+
+ol li:nth-of-type(even){
+    color: green;
+}
+
+ol li:nth-of-type(odd){
+    text-transform: uppercase;
+}
+
+h1, h2, h3{
+    color: red;
+}
+
+h1 em, h2 em, h3 em{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li{
+    font-size: 20px;
+}
+
+li em{
+    font-weight: bold;
+}
+
+.blue-font{
+    color: blue;
+}
+
+.pink-b{
+    background-color: pink;
+}
+
+.aliados a:hover{
+    font-weight: bold;
+}
+
+.aliados a[href*="stackoverflow"]:hover{
+    color: orange;
+}
+
+.aliados a[href*="w3schools"]:hover{
+    color: green;
+}
+
+.aliados a[href*="mozilla"]:hover{
+    color: black;
+}
+
+.aliados a[href*="devdocs"]:hover{
+    color: yellow;
+}
+
+.aliados a[href*="betrybe"]:hover{
+    color: green;
+}
