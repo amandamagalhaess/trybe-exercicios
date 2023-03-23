@@ -7,7 +7,7 @@
   html > body {
     background-color: rgb(233, 233, 233);
     font-size: 22px;
-    margin: 90px 110px;
+    margin: 70px 90px;
     text-align: center;
   }
 
@@ -32,6 +32,19 @@
   }
 }
 
+@media (min-width: 992px) {
+  html > body {
+    background-color: rgb(223, 223, 223);
+    font-size: 20px;
+    margin: 100px 120px;
+    max-width: 1130px;
+  }
+
+  body > main > section > figure {
+    flex-basis: 30%;
+  }
+}
+
 html {
   box-sizing: border-box;
 }
@@ -45,23 +58,18 @@ html {
 body {
   font-size: 24px;
   margin: 50px;
+  text-align: center;
+  background-color: rgb(243, 243, 243);
+  min-width: 200px;
 }
-
-article {}
 
 h1 {
   font-size: 40px;
 }
 
-h2 {}
-
 img {
   max-width: 100%;
 }
-
-main {}
-
-section {}
 
 figure {
   margin: 0;
