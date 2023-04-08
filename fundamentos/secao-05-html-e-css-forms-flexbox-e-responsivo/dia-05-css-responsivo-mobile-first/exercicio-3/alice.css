@@ -4,4 +4,32 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  .main-content {
+    margin-top: 12px;
+  }
+  footer {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    margin-top: 15px;
+  }
+  footer {
+    margin-top: 45px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-content {
+    margin-top: 20px;
+  }
+  footer {
+    margin-top: 50px;
+  }
 }
