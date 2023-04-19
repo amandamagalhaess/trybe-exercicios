@@ -1,0 +1,1 @@
+As instruções dos exercícios estão comentadas dentro dos arquivos.
