@@ -101,3 +101,5 @@
 
 Perceba que todo o conteúdo da página está na cor branca. Utilize o que aprendeu no conteúdo de hoje para que a página fique igual ao Administrador de Tempo da Trybe.
 
+![image](https://user-images.githubusercontent.com/124991642/233209465-05289ebd-176d-4f89-b188-3f2f90d58684.png)
+
