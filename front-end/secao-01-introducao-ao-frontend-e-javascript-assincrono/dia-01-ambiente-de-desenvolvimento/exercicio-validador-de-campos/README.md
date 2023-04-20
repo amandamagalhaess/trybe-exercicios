@@ -9,3 +9,5 @@
 5. Faça, pelo menos, cinco validações utilizando a biblioteca validator. Aproveite e confira a documentação para ver exatamente como utilizá-la!
 6. Rode sua aplicação utilizando o vite
 7. Teste se sua aplicação é aprovada pelo lint da Trybe
+
+Aplicação: https://amanda-validador-de-campos.surge.sh/
