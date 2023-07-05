@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.unread {
+  font-weight: bold;
+}
+
+.read {
+  font-weight: normal;
+}
+
+header {
+  background-color: rgb(113, 223, 169);
+  color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.emailsContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.markAllButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+
+.markAllButtons button {
+  all: unset;
+  cursor: pointer;
+  background-color: rgb(35, 99, 203);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  height: 40px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.markAllButtons button:hover {
+  background-color: rgb(22, 79, 170);
+}
+
+.markAllButtons button svg {
+  margin-right: 5px;
+}
+
+.emailsList {
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #CCC;
+  padding: 25px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+    transition: box-shadow .3s;
+}
+
+.email:hover {
+  box-shadow: 0px 0px 3px 0px #2fc18c;
+}
+
+.emailButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.emailButtons button {
+  all: unset;
+  cursor: pointer;
+  width: 35px;
+  background-color: rgb(35, 99, 203);
+  height: 35px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.emailButtons button:hover {
+  background-color: rgb(22, 79, 170);
+}
